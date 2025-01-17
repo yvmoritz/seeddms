@@ -1,6 +1,6 @@
 # Information
 
-This is a repository for the DMS seeddms (https://www.seeddms.org). It contains the latest available version 6.0.7.
+This is a repository for the DMS seeddms (https://www.seeddms.org). It contains the latest available version 6.0.29
 
 ## Quickstart
 
