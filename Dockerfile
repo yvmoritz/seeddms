@@ -9,7 +9,8 @@ RUN pear channel-update pear.php.net
 RUN pear install Log
 
 # Get seeddms
-RUN curl -fsSL https://downloads.sourceforge.net/project/seeddms/seeddms-6.0.15/seeddms-quickstart-6.0.15.tar.gz | tar -xzC /var/www
+#RUN curl -fsSL https://downloads.sourceforge.net/project/seeddms/seeddms-6.0.15/seeddms-quickstart-6.0.15.tar.gz | tar -xzC /var/www
+RUN curl -fsSL https://downloads.sourceforge.net/project/seeddms/seeddms-6.0.29/seeddms-quickstart-6.0.29.tar.gz | tar -xzC /var/www
 RUN mv /var/www/seeddms60x /var/www/seeddms && touch /var/www/seeddms/conf/ENABLE_INSTALL_TOOL
 
 # Copy settings-files
